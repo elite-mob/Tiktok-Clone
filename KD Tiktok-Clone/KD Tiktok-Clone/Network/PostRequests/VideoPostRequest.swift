@@ -35,13 +35,27 @@ class VideoPostRequest: NetworkModel {
         }
         
         let videoRef = Storage.storage().reference().child("Videos/\(post.video)")
+//        let videoRef = Storage.storage().reference().child("images/rivers.jpg")
+
         // Upload the file to the path "images/rivers.jpg"
-        let _ = videoRef.putFile(from: videoURL, metadata: nil) { metadata, error in
+        
+        let metadata = StorageMetadata()
+        metadata.contentType = "video/quicktime"
+        
+        var videoData: Data = Data()
+        
+        do{
+            videoData = try Data(contentsOf: videoURL)
+        } catch {
+            print(error.localizedDescription)
+            return
+        }
+        videoRef.putData(videoData, metadata: metadata) { (metaData, error) in
             if let error = error {
                 failure(error)
                 return
             }
-            guard let metadata = metadata else { return }
+            guard let metadata = metaData else { return }
             let size = metadata.size / 1024 / 1024
             print("File Size: \(size)MB")
             videoRef.downloadURL { (url, error) in
@@ -51,6 +65,21 @@ class VideoPostRequest: NetworkModel {
                 _publishPostToDatabase(post: tempPost)
             }
         }
+//        let _ = videoRef.putFile(from: videoURL, metadata: nil) { metadata, error in
+//            if let error = error {
+//                failure(error)
+//                return
+//            }
+//            guard let metadata = metadata else { return }
+//            let size = metadata.size / 1024 / 1024
+//            print("File Size: \(size)MB")
+//            videoRef.downloadURL { (url, error) in
+//                guard let downloadURL = url else { return }
+//                var tempPost = post
+//                tempPost.videoURL = downloadURL
+//                _publishPostToDatabase(post: tempPost)
+//            }
+//        }
 
     }
     

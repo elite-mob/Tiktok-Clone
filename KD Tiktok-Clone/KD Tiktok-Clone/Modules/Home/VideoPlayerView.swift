@@ -73,6 +73,8 @@ class VideoPlayerView: UIView {
             return
         }
         self.fileExtension = fileExtension
+        
+//        self.avPlayerLayer.player = AVPlayer(url: url)
         VideoCacheManager.shared.queryURLFromCache(key: url.absoluteString, fileExtension: fileExtension, completion: {[weak self] (data) in
             DispatchQueue.main.async { [weak self] in
                 guard let self = self else { return }

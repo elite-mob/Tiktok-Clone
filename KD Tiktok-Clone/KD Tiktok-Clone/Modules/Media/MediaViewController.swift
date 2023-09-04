@@ -46,7 +46,7 @@ class MediaViewController: UIViewController, RecordingDelegate {
     
     // MARK: - Variables
     let cameraManager = CameraManager()
-    var videoURL: URL?
+    var videoURL: URL? = URL(string: "file:///Users/admin/Library/Developer/CoreSimulator/Devices/E65BA43E-9841-42CA-88FF-355AB955BEE6/data/Media/DCIM/100APPLE/IMG_0012.MP4")
     let cornerRadius: CGFloat = 12.0
     
     // MARK: - Lifecycles
@@ -288,7 +288,13 @@ extension MediaViewController {
     }
     
     @objc fileprivate func openAlbum(){
-        self.showAlert("Open Album Function is not implemented yet")
+        let vc = UIStoryboard(name: "MediaViews", bundle: nil).instantiateViewController(identifier: "MediaPostingVC") as! MediaPostingViewController
+        guard let videoURL = self.videoURL else { return }
+//        cameraManager.saveToLibrary(videoURL: videoURL)
+        vc.videoURL = videoURL
+        self.navigationController?.pushViewController(vc, animated: true)
+
+//        self.showAlert("Open Album Function is not implemented yet")
     }
     
     @objc fileprivate func addSound(){

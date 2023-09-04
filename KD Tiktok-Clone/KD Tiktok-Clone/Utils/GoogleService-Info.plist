@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>834143972838-k0s5eg03vdqd7ajjr7vb2bsulaejt9pv.apps.googleusercontent.com</string>
+	<string>824240182608-2m8oho4a486urik7ruf8jokckbn6gtrs.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.834143972838-k0s5eg03vdqd7ajjr7vb2bsulaejt9pv</string>
+	<string>com.googleusercontent.apps.824240182608-2m8oho4a486urik7ruf8jokckbn6gtrs</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAI0HJjrKh6gr2NUoOuyZilJpzPcgGlqyI</string>
+	<string>AIzaSyCH75L4Fx2WE8KCZ1oDOXl54ed8YLyTpj0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>834143972838</string>
+	<string>824240182608</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Kaishan.KD-Tiktok-Clone</string>
+	<string>com.ln.tiktok</string>
 	<key>PROJECT_ID</key>
-	<string>kdtiktokclone-f63f4</string>
+	<string>tiktok-clone-27973</string>
 	<key>STORAGE_BUCKET</key>
-	<string>kdtiktokclone-f63f4.appspot.com</string>
+	<string>tiktok-clone-27973.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:834143972838:ios:3dd251c212adb672137a27</string>
-	<key>DATABASE_URL</key>
-	<string>https://kdtiktokclone-f63f4.firebaseio.com</string>
+	<string>1:824240182608:ios:27a0df79c1ade13775c855</string>
 </dict>
 </plist>

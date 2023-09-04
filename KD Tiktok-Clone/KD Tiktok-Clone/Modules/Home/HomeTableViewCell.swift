@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import MarqueeLabel
 
-protocol HomeCellNavigationDelegate: class {
+protocol HomeCellNavigationDelegate: AnyObject {
     // Navigate to Profile Page
     func navigateToProfilePage(uid: String, name: String)
 }

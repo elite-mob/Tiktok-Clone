@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "player",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/piemonte/Player.git",
+      "state" : {
+        "revision" : "d6a6c266e80f90fa93430371076964c196a1d2ec",
+        "version" : "0.14.0"
+      }
+    }
+  ],
+  "version" : 2
+}

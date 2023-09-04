@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in HomeViewModel.getPosts(pageNumber:size:):HomeViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VideoCacheManager.clearDiskCache():VideoCacheManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fileDict[FileAttributeKey.size]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MediaViewModel.postVideo(videoURL:caption:success:failure:):MediaViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "post.dictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

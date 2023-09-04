@@ -24,7 +24,7 @@ class MediaViewModel: NSObject{
         // Random name for the video file
         let videoName = randomString(length: 10) + ".\(VIDEO_FILE_EXTENSION)"
         // TODO: Edit the other field of the post
-        let post = Post(id: "REMOVE", video: videoName, videoURL: videoURL, videoFileExtension: VIDEO_FILE_EXTENSION, videoHeight: 1800, videoWidth: 900, autherID: "n96kixJqddGqZpMqL8t8", autherName: "Sam", caption: caption, music: "Random Music Name", likeCount: randomNumber(min: 1000, max: 100000), shareCount: randomNumber(min: 1000, max: 100000), commentID: "random")
+        let post = Post(id: "REMOVE", video: videoName, videoURL: videoURL, videoFileExtension: VIDEO_FILE_EXTENSION, videoHeight: 1800, videoWidth: 900, autherID: "LdFppopKlCUehGlhwJrwsGIfBoI2", autherName: "Sam", caption: caption, music: "Random Music Name", likeCount: randomNumber(min: 1000, max: 100000), shareCount: randomNumber(min: 1000, max: 100000), commentID: "random")
         VideoPostRequest.publishPost(post: post, videoURL: videoURL, success: { data in
             let str = data as? String
             success(str!)
