@@ -64,6 +64,21 @@
                   endingLineNumber = "23"
                   offsetFromSymbolStart = "220">
                </Location>
+               <Location
+                  uuid = "2AB401A1-E352-45A8-B626-D0819B744AA8 - c654db159b08b7c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Poppi.VideoPostRequest.publishPost(post: Poppi.Post, videoURL: Foundation.URL, success: (Any) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()._publishPostToDatabase(post: Poppi.Post) -&gt; ()"
+                  moduleName = "Poppi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/Tiktok-Clone/KD%20Tiktok-Clone/KD%20Tiktok-Clone/Network/PostRequests/VideoPostRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "248">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -127,6 +142,21 @@
                   endingLineNumber = "54"
                   offsetFromSymbolStart = "296">
                </Location>
+               <Location
+                  uuid = "74E94B07-4F95-4C28-802B-5202B66C4F65 - cdc3bdd987e70919"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseStorage.StorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Poppi.VideoPostRequest.publishPost(post: Poppi.Post, videoURL: Foundation.URL, success: (Any) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "Poppi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/Tiktok-Clone/KD%20Tiktok-Clone/KD%20Tiktok-Clone/Network/PostRequests/VideoPostRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "320">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -189,6 +219,21 @@
                   startingLineNumber = "58"
                   endingLineNumber = "58"
                   offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "6197BB1B-FAF1-4D51-843D-45C8B57252EF - cdc3bdd987e706a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseStorage.StorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Poppi.VideoPostRequest.publishPost(post: Poppi.Post, videoURL: Foundation.URL, success: (Any) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "Poppi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/Tiktok-Clone/KD%20Tiktok-Clone/KD%20Tiktok-Clone/Network/PostRequests/VideoPostRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "364">
                </Location>
             </Locations>
          </BreakpointContent>

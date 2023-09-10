@@ -89,20 +89,20 @@ class VideoPlayerView: UIView {
                     self.videoURL = redirectUrl
                 }
                 self.originalURL = url
-                
-                
+
+
                 self.asset = AVURLAsset(url: self.videoURL!)
                 self.asset!.resourceLoader.setDelegate(self, queue: .main)
-                
+
                 self.playerItem = AVPlayerItem(asset: self.asset!)
                 self.addObserverToPlayerItem()
-                
+
                 if let queuePlayer = self.queuePlayer {
                     queuePlayer.replaceCurrentItem(with: self.playerItem)
                 } else {
                     self.queuePlayer = AVQueuePlayer(playerItem: self.playerItem)
                 }
-                
+
                 self.playerLooper = AVPlayerLooper(player: self.queuePlayer!, templateItem: self.queuePlayer!.currentItem!)
                 self.avPlayerLayer.player = self.queuePlayer
             }

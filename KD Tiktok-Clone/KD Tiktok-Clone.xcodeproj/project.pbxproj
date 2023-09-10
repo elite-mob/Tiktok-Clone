@@ -712,7 +712,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R7VDV346RW;
 				INFOPLIST_FILE = "KD Tiktok-Clone/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Poppi;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -733,7 +733,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R7VDV346RW;
 				INFOPLIST_FILE = "KD Tiktok-Clone/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Poppi;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
